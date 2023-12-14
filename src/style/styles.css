@@ -58,3 +58,7 @@ nav a.active {
   margin: 5px;
   height:590px;
 }
+
+div.main-content h1{
+  margin: 5px;
+}
