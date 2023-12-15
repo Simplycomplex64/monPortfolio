@@ -1,64 +1,56 @@
-  body {
-    margin: 0;
-    padding: 0;
-    background-color:#5ce1e6;
-  }
-   .logo{
-    height: 150px;
-    position:relative;
-    right: 55px;
-    top: 10px;
-    transition: 0.2s ease-in-out;
-   }
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#5ce1e6;
+}
 
-   .header{
-    background-color: #5ce1e6;
-    height: 180px;
-   }
+.header{
+  background-color: #5ce1e6;
+  height: 180px;
+ }
 
-   .logo:hover{
-    transform: scale(1.1);
+ .logo{
+  height: 150px;
+  position:relative;
+  right: 55px;
+  top: 10px;
+  transition: 0.2s ease-in-out;
+ }
 
-   }
+ .logo:hover{
+  transform: scale(1.1);
 
-   nav {
-    background-color: #5ce1e6;
-    overflow: hidden;
-    position: relative;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-   }
+ }
+
+ nav {
+  background-color: #5ce1e6;
+  overflow: hidden;
+  position: relative;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+ }
 
 nav a {
-  font-family: 'Architects Daughter', cursive;
-  font-weight: 600;
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
+font-family: 'Architects Daughter', cursive;
+font-weight: 600;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.4s ease-in-out;
+  margin-right: 2px;
 }
 
 nav a:hover {
-    background-color: black;
-    color: goldenrod;
-    transition: 0.4s ease-in-out;
+  background-color: goldenrod;
+  color: black;
+  transform: scale(1.04);
 }
 
 nav a.active {
-  background-color: black;
-  color: goldenrod;
-}
-
-.main-content{
-  background-color: black;
-  color: goldenrod;
-  margin: 5px;
-  height:590px;
-}
-
-div.main-content h1{
-  margin: 5px;
+background-color: black;
+color: goldenrod;
 }
