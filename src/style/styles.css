@@ -94,6 +94,7 @@ color: lightgray;
 
   .menu-button {
     display: block; /* Display the menu button */
+    margin-right: 20px;
   }
 
   nav.menu-active {
