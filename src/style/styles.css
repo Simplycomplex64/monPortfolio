@@ -578,18 +578,4 @@ div.card1 a:hover{
   }
 }
 
-/* Add this section to make the footer responsive */
-@media screen and (max-width: 600px) {
-  .footer-content {
-    flex-direction: column;
-  }
 
-  .footer-section {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .footer-section h2 {
-    border: none;
-  }
-}
