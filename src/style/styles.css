@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bodybg.png');
+  background-size: contain;
+}
+
+.header{
+  background-image: url('../images/S.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  margin-top: -20px;
+  
+ }
+
+ h1.logo a{
+  font-size: 190px;
+  text-decoration: none;
+  position: relative;
+  left: 15px;
+  transition: 0.4s ease-in-out;
+  color: #3a0e45;
+  font-family: 'Architects Daughter', cursive;
+ }
+
+ h1.logo a:hover{
+  color: #d6bddb;
+ }
+
+ h1.logo span{
+  color: #efe8f0;
+  position: relative;
+  bottom: 7px;
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+
+ }
+
+ nav {
+  background: linear-gradient(to right,#060606, #b724ca);
+  overflow: hidden;
+  position: relative;
+  border-top: 6px solid black;
+  border-bottom: 3px solid black;
+  bottom: 10px;
+ }
+
+nav a {
+font-family: 'Architects Daughter', cursive;
+font-weight: 600;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.4s ease-in-out;
+  margin-right: 2px;
+}
+
+nav a:hover {
+  background-color: gray;
+  color: black;
+  transform: scale(1.04);
+}
+
+nav a.active {
+background-color: black;
+color: lightgray;
+}
+
+.main-content {
+  background: linear-gradient(to right, #b724ca,#060606);
+  transition: background 0.3s ease-in-out;
+  position: relative;
+  bottom: 10px;
+}
+
+.main-content h1{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-left: 10px;
+  font-family: 'Architects Daughter', cursive;
+  padding: 7px;
+
+}
+
+.bg1{
+  width: 1483px;
+  height: 528px;
+  position: relative;
+  top: -60px;
+  border-bottom: 4px  solid #b724ca;
+  border-top: 4px solid #b724ca;
+}
+
+.bg2{
+  width: 1483px;
+  height: 528px;
+  position: relative; 
+  top: -400px;
+  margin-bottom: -390px;
+  border-top: 4px solid #b724ca;
+  border-bottom: 4px solid #b724ca;
+}
+
+
+.div-info-one {
+  background-color: black;
+  opacity: 85%;
+  top: -560px;
+  position: relative;
+  left: 60px;
+  height: 450px;
+  width: 60%;
+  border: 3px solid rgb(175, 175, 175);
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: auto;
+
+}
+
+.div-info-two {
+  background-color: black;
+  opacity: 85%;
+  position: relative;
+  top: -510px;
+  left: 520px;
+  height: 450px;
+  width: 60%;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: auto;
+  border: 3px solid rgb(163, 163, 163);
+  margin-bottom: -200px;
+}
+
+.div-info-three {
+  border: 3px solid purple;
+  position: relative; 
+  height: 420px;
+  width: 50%;
+  color: #060606;
+  margin: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  overflow-y:scroll ;
+}
+
+div.div-info-three a{
+  color: goldenrod;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+div.div-info-three a:hover{
+  color: green;
+  font-size: 26px;
+  border-bottom: 2px dashed green;
+  font-style: italic;
+}
+
+.div-info-one h1 {
+  position: relative;
+  color: whitesmoke;
+  top: 5px;
+  left: 25px;
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: underline;
+  text-decoration-color: rgb(175, 101, 151);
+}
+
+.div-info-two h1 {
+  position: relative;
+  color: whitesmoke;
+  top: 5px;
+  left: 25px;
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: underline;
+  text-decoration-color: rgb(175, 101, 151);
+}
+
+.div-info-three h1 {
+  position: relative;
+  color: whitesmoke;
+  top: 5px;
+  left: 25px;
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: underline;
+  text-decoration-color: rgb(175, 101, 151);
+}
+
+.div-info-one p {
+  font-family: 'Architects Daughter', cursive;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.div-info-two p {
+  font-family: 'Architects Daughter', cursive;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.div-info-three p {
+  font-family: 'Architects Daughter', cursive;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.footer {
+  background-color: #360537;
+  color: rgb(237, 235, 230);
+  border-top: 3px solid rgb(251, 251, 248);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-section {
+  width: 150px;
+}
+
+.footer-section h2 {
+  border-bottom: 1px solid #fff;
+  font-family: 'Architects Daughter', cursive;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+div.footer-section a {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-family: 'Architects Daughter', cursive;
+}
+
+div.footer-section a:hover {
+  color:rgb(233, 77, 21);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #222;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+img.social-icon{
+  width: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+img.social-icon:hover{
+  width: 25px;
+  transform: scale(1.5);
+}
+
+.html5{
+  width: 200px;
+  height: 270px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 43px;
+}
+
+.div-container1{
+  width: 98%;
+  position: relative;
+  left: 10px;
+  height: 450px;
+  background-color: black;
+  opacity: 85%;
+  border: 4px solid #b724ca;
+  border-radius: 10px;
+  margin-bottom: 90px;
+}
+
+.div-container2{
+  width: 98%;
+  position: relative;
+  right: 5px;
+  height: 450px;
+  background-color: black;
+  opacity: 85%;
+  border: 4px solid #b724ca;
+  border-radius: 10px;
+  margin:10px;
+  margin-bottom: 350px;
+}
+
+.div-info-three-img img{
+  width: 43%;
+  float: right;
+  border: 3px solid purple;
+  border-radius: 7px;
+  position: relative;
+  right: 30px;
+  top: 30px;
+  height: 390px;
+  transition: 0.3s ease;
+}
+
+.div-info-three-img img:hover{
+  transform: scale(1.1);
+}
+
+div.other-div-container{
+  background-color: rgba(128, 128, 128, 0.243);
+  height: auto;
+  border-top: 5px solid purple;
+  border-bottom: 5px solid purple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+div.other-project-one{
+  border: 4px solid gray;
+  width: 45%;
+  margin: 10px;
+  border-radius: 20px;
+  height: 225px;
+  display:flex;
+  margin-bottom: 50px;
+}
+
+div.card1{
+  background-color: #050006ba;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+  border: 2px solid rgba(255, 217, 0, 0.627);
+}
+
+div.img-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.card1 img{
+  width: 125px;
+  height: 75px;
+  border-radius: 15px;
+  padding: 9px;
+}
+
+div.card1 h1{
+  position: relative;
+  top: -15px;
+  left: 10px;
+  text-decoration: underline;
+  font-family: 'Architects Daughter', cursive;
+  color: bisque;
+  font-size: 27px;
+}
+
+div.card1 p{
+  padding: 10px;
+  position: relative;
+  top: -40px;
+  font-size: 20px;
+  font-family: 'Architects Daughter', cursive;
+  color: whitesmoke ;
+}
+
+div.card1 a{
+  color: gold;
+  transition: 0.2s ease-in-out ;
+}
+
+div.card1 a:hover{
+  color: green;
+  transform: scale(1.2);
+}
+
+/* Add this section to make the header responsive */
+@media screen and (max-width: 600px) {
+  h1.logo a {
+    font-size: 120px;
+  }
+
+  h1.logo span {
+    font-size: 30px;
+  }
+
+  .header {
+    height: 150px;
+  }
+
+  nav {
+    position: static;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a {
+    float: none;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+/* Add this section to make the main content responsive */
+@media screen and (max-width: 768px) {
+  .main-content h1 {
+    font-size: 35px;
+  }
+
+  .div-container1,
+  .div-container2 {
+    height: auto;
+  }
+
+  .div-info-three-img img {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+}
+
+/* Add this section to make the footer responsive */
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h2 {
+    border: none;
+  }
+}
