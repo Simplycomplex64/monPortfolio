@@ -539,11 +539,12 @@ div.card1 a:hover{
   }
 
   h1.logo span {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .header {
     height: 150px;
+    margin-bottom: -30px;
   }
 
   nav {
