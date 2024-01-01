@@ -82,10 +82,11 @@ color: lightgray;
   transition: 0.4s ease-in-out;
   margin-right: 7px;
   color: gold;
+  position: relative;
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 778px) {
   nav {
     max-height: 0px; /* Hide the navigation */
     overflow: hidden;
@@ -126,7 +127,7 @@ color: lightgray;
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 778px) {
   h1.logo a {
     font-size: 100px;
   }
@@ -163,7 +164,7 @@ color: lightgray;
 }
 
 .bg1{
-  width: 1483px;
+  width: 100%;
   height: 528px;
   position: relative;
   top: -60px;
@@ -172,7 +173,7 @@ color: lightgray;
 }
 
 .bg2{
-  width: 1483px;
+  width: 100%;
   height: 528px;
   position: relative; 
   top: -400px;
@@ -293,7 +294,7 @@ div.div-info-three a:hover{
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 778px) {
   .bg1,
   .bg2 {
     height: 500px;
@@ -310,26 +311,25 @@ div.div-info-three a:hover{
     width: 100%;
   }
 
-  .div-info-one,
   .div-info-two,
   .div-info-three {
-    width: 80%;
-    left: 10%;
+    width: 90%;
     height: 350px;
   }
 
   .div-info-one {
-    margin-top: 120px;
+    width: 91%;
+    margin-top: 70px;
+    position: relative;
+    left: 2px;
   }
 
   .div-info-two {
+    width: 91%;
+    height: 600px;
     margin-bottom: -550px;
     position: relative;
-    top: -445px;
-  }
-
-  .div-info-two {
-    left: 10%;
+    left: 2px;
   }
 
   .div-info-three {
@@ -411,13 +411,13 @@ img.social-icon:hover{
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 778px) {
   .html5 {
     width: 15%;
     height: auto;
     margin: 20px 0;
     margin-top: 220px;
-    padding-left: 13px;
+    padding-left: 7px;
   }
 }
 
@@ -540,11 +540,11 @@ div.card1 a:hover{
 /* Add this section to make the header responsive */
 @media screen and (max-width: 600px) {
   h1.logo a {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   h1.logo span {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .header {
@@ -567,7 +567,7 @@ div.card1 a:hover{
 }
 
 /* Add this section to make the main content responsive */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 778px) {
   .main-content h1 {
     font-size: 35px;
   }
