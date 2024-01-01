@@ -85,11 +85,11 @@ color: lightgray;
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   nav {
-    max-height: 0; /* Hide the navigation */
+    max-height: 0px; /* Hide the navigation */
     overflow: hidden;
-    transition: max-height 0.5s ease-in;
+    transition: max-height 0.2s ease-in;
   }
 
   .menu-button {
@@ -126,7 +126,7 @@ color: lightgray;
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   h1.logo a {
     font-size: 100px;
   }
@@ -150,12 +150,15 @@ color: lightgray;
   }
 
   .main-content h1 {
-    font-size: 35px;
-    margin-top: 40px;
+    color: darkgray;
+    font-size: x-small;
   }
 
   .main-content {
-    margin-bottom: -50px;
+    margin-bottom: -33px;
+    height: 100px;
+    position: relative;
+    margin-top: 55px;
   }
 }
 
@@ -290,20 +293,21 @@ div.div-info-three a:hover{
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .bg1,
   .bg2 {
-    width: 100%;
     height: 500px;
     border-bottom: 4px  solid #b724ca;
     border-top: 4px solid #b724ca;
   }
   .bg1{
     top: 0;
+    width: 100%;
   }
 
   .bg2{
     position: relative;
+    width: 100%;
   }
 
   .div-info-one,
@@ -407,7 +411,7 @@ img.social-icon:hover{
 }
 
 /* Add this section for better responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .html5 {
     width: 15%;
     height: auto;
@@ -563,7 +567,7 @@ div.card1 a:hover{
 }
 
 /* Add this section to make the main content responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .main-content h1 {
     font-size: 35px;
   }
@@ -645,6 +649,170 @@ div.card1 a:hover{
     width: 25px;
     transform: scale(1.5);
   }
+}
+
+.main-cv-container{
+  background-color:rgba(128, 0, 128, 0.584);
+  width: 98%;
+  border: 5px solid rgba(255, 217, 0, 0.524);
+  margin-left: 10px;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 300px;
+}
+
+.cv-container{
+  background-color: rgba(91, 88, 88, 0.708);
+  height: auto;
+  margin: 25px;
+  padding:15px;
+  border: 3px dashed gold;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cv-container h1{
+  font-size: 70px;
+  text-decoration: underline;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.cv-content h2{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 45px;
+}
+
+.cv-content p{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  margin-top: -40px;
+}
+
+.cv-main-content{
+  background-color: rgba(184, 188, 189, 0.533);
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.cv-main-content h1{
+  font-size: 45px;
+  position: relative;
+}
+
+.cv-main-content h2{
+  font-size: 33px;
+  position: relative;
+  font-family: 'Architects Daughter', cursive;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.cv-main-content p{
+  font-size: 30px;
+  position: relative;
+  text-align: left;
+  margin: 15px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.cv-download{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #500956;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
+  font-size: 18px;
+  color: wheat;
+  margin-bottom: 20px;
+  position: relative;
+  left: 600px;
+  transition: 0.3s ease-in-out;
+}
+
+.cv-download:hover{
+  transform: scale(1.2);
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+
+.div-contact-me{
+  background-color: rgba(91, 58, 94, 0.705);
+  width: 95%;
+  height: auto;
+  position: relative;
+  left: 30px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.div-contact-me h1{
+  margin: 10px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 45px;
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.div-contact-me p{
+  margin: 10px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  color: lightgray;
+}
+
+.div-contact-me img{
+ width: 400px;
+ height: 530px;
+ margin-bottom: -15px;
+ position: relative;
+ top: -5px;
+}
+
+.div-contact-me a{
+  font-family: 'Architects Daughter', cursive;
+  color: #030303;
+  font-size: 25px;
+  text-decoration:none;
+  transition: 0.3s ease-in-out;
+}
+
+.div-contact-me a:hover{
+  font-family: 'Architects Daughter', cursive;
+  color: green;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.text-div-1{
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container{
+  margin: 15px;
+  border-style: groove;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  padding: 15px;
+}
+
+.div-contact-me-img{
+  width: 400px;
+  margin: 15px;
+}
+
+.contact-me-img{
+  border-radius: 20px;
+  border: 5px solid rgb(0, 0, 0);
 }
 
 
