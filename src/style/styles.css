@@ -1021,8 +1021,7 @@ div.card1 a:hover{
     background-color: rgba(91, 58, 94, 0.705);
     width: 90%;
     height: auto;
-    position: relative;
-    left: 30px;
+    margin-left: -12px;
     border: 3px solid gray;
     border-radius: 10px;
     margin-top: -50px;
@@ -1043,10 +1042,7 @@ div.card1 a:hover{
     font-size: 25px;
     color: lightgray;
   }
-  
-  .div-contact-me-img{
-    width: 50%;
-  }
+
   
   .div-contact-me a{
     font-family: 'Architects Daughter', cursive;
