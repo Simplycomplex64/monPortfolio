@@ -152,14 +152,12 @@ color: lightgray;
 
   .main-content h1 {
     color: darkgray;
-    font-size: x-small;
+    font-size: 20px;
+    padding-bottom: 20px;
   }
 
   .main-content {
-    margin-bottom: -33px;
-    height: 100px;
-    position: relative;
-    margin-top: 55px;
+    margin-bottom: -30px;
   }
 }
 
@@ -315,6 +313,8 @@ div.div-info-three a:hover{
   .div-info-three {
     width: 90%;
     height: 350px;
+    position: relative;
+    left: 6px;
   }
 
   .div-info-three h1 {
@@ -547,18 +547,38 @@ div.card1 a:hover{
 
 /* Media Query for smaller screens project page*/
 @media screen and (max-width: 768px) {
-  .div-container1,
-  .div-container2 {
+  .div-container1{
     width: 90%; /* Full width for smaller screens */
     float: none;
+    margin-left: 3px;
+    margin-top: 10px;
+  }
+
+  div.other-div-container{
+    background-color: rgba(128, 128, 128, 0.243);
+    height: auto;
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -70px;
+    margin-bottom: 20px;
+  }
+
+  .div-container2 {
+    width:auto; /* Full width for smaller screens */
+    float: none;
+    position: relative;
+    left: 0;
+    margin-bottom: 90px;
   }
 
   .div-info-three-img img{
     border: 3px solid purple;
     border-radius: 7px;
-    position: relative;
     top: 10px;
-    left: -12px;
+    left: -16px;
     margin-bottom: 25px;
     height: 190px;
     width: 90%;
@@ -572,7 +592,6 @@ div.card1 a:hover{
     border-radius: 20px;
     height: 225px;
     display:flex;
-    margin-bottom: 50px;
   }
 
   div.card1 img{
@@ -655,8 +674,11 @@ div.card1 a:hover{
 
 /* Add this section to make the main content responsive */
 @media screen and (max-width: 778px) {
+  
   .main-content h1 {
-    font-size: 35px;
+    font-size: 45px;
+    position: relative;
+    top: 10px;
   }
 
   .div-container1,
@@ -821,6 +843,103 @@ div.card1 a:hover{
   cursor: pointer;
 }
 
+@media screen and (max-width:778px) {
+
+  .main-cv-container{
+    background-color:rgba(128, 0, 128, 0.584);
+    width: 90%;
+    border: 5px solid rgba(255, 217, 0, 0.524);
+    margin-left: 15px;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 150px;
+    margin-top: 20px;
+  }
+  
+  .cv-container{
+    background-color: rgba(91, 88, 88, 0.708);
+    height: auto;
+    margin: 25px;
+    padding:15px;
+    border: 3px dashed gold;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .cv-container h1{
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .cv-content h2{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 26px;
+    position: relative;
+    top: -20px;
+  }
+  
+  .cv-content p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    margin-top: -40px;
+  }
+  
+  .cv-main-content{
+    background-color: rgba(184, 188, 189, 0.533);
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+  
+  .cv-main-content h1{
+    font-size: 25px;
+    position: relative;
+  }
+  
+  .cv-main-content h2{
+    font-size: 20px;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .cv-main-content p{
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    margin: 15px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 17px;
+  }
+  
+  .cv-download{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #500956;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 900;
+    font-size: 18px;
+    color: wheat;
+    margin-bottom: -10px;
+    position: relative;
+    left: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cv-download:hover{
+    transform: scale(1.2);
+    background-color: green;
+    color: black;
+    cursor: pointer;
+  }
+  
+} 
+
 .div-contact-me{
   background-color: rgba(91, 58, 94, 0.705);
   width: 95%;
@@ -894,6 +1013,71 @@ div.card1 a:hover{
 .contact-me-img{
   border-radius: 20px;
   border: 5px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width:778px){
+
+  .div-contact-me{
+    background-color: rgba(91, 58, 94, 0.705);
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 30px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+  
+  .div-contact-me h1{
+    margin: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    color: lightgray;
+    text-decoration: underline;
+  }
+  
+  .div-contact-me p{
+    margin: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    color: lightgray;
+  }
+  
+  .div-contact-me-img{
+    width: 50%;
+  }
+  
+  .div-contact-me a{
+    font-family: 'Architects Daughter', cursive;
+    color: #030303;
+    font-size: 25px;
+    text-decoration:none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .div-contact-me a:hover{
+    font-family: 'Architects Daughter', cursive;
+    color: green;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  
+  .text-div-1{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .container{
+    margin: 15px;
+    border-style: groove;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
 }
 
 
