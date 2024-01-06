@@ -1074,6 +1074,11 @@ div.card1 a:hover{
     flex-direction: column;
     padding: 15px;
   }
+
+  img.contact-me-img{
+    width: 245px;
+    height: 300px;
+  }
 }
 
 
