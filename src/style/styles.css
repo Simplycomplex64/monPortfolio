@@ -450,7 +450,7 @@ img.social-icon:hover{
   border: 4px solid #b724ca;
   border-radius: 10px;
   margin:10px;
-  margin-bottom: 350px;
+  margin-bottom: 150px;
 }
 
 .div-info-three-img img{
@@ -571,7 +571,6 @@ div.card1 a:hover{
     float: none;
     position: relative;
     left: 0;
-    margin-bottom: 90px;
   }
 
   .div-info-three-img img{
@@ -1076,8 +1075,9 @@ div.card1 a:hover{
   }
 
   img.contact-me-img{
-    width: 245px;
-    height: 300px;
+    width: auto;
+    height: 200px;
+    margin-left: 8px;
   }
 }
 
